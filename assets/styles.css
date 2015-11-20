@@ -1,3 +1,12 @@
 #test {
 	font-size: 28px;
 }
+
+a {
+	text-decoration: none;
+	color: #1E90FF;
+}
+
+a:hover {
+	color: blue;
+}
