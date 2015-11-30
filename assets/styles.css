@@ -64,10 +64,19 @@ li a {
 /*************
  	HOME PAGE
  *************/
+#homeBG {
+	background: url(../assets/img/sunset.jpg) no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*image credit to: https://www.flickr.com/photos/57936333@N07/8285850247/sizes/h/ */
+}
 
-#welcome {
-	background-image: url(./img/background.jpg);
-	height: 200px;
+#homeBG h2 {
+	color: white;
 }
 
 #dp {
