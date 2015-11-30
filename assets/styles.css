@@ -53,14 +53,6 @@ li a {
 	z-index: 100;
 }
 
-/*.overlay {*/
-	/*position: absolute;*/
-	/*z-index: 10;*/
-	/*width: 100%;*/
-		/*height: calc(100% - 39px);*/
-	/*background-color: rgba(0, 0, 0, 0.5);*/
-/*}*/
-
 /*************
  	HOME PAGE
  *************/
@@ -97,18 +89,6 @@ li a {
 /*************
  EXPERIENCE PAGE
  *************/
-/*#experienceBG {*/
-	/*background: url(../assets/img/endless_road.jpg) no-repeat center center fixed;'*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*-o-background-size: cover;*/
-	/*background-size: cover;*/
-	/*min-width: 100%;*/
-	/*min-height: 100%;*/
-	/*z-index: 100;*/
-
-/*}*/
-
 #experience {
 	color: white;
 }
@@ -250,5 +230,40 @@ textarea {
 #send {
 	margin: 0 auto;
 	width: 100px;
+	font-size: 24px;
+}
+
+/*************
+ THANKS PAGE
+ *************/
+#thanksBG {
+	background:
+			linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url(../assets/img/winter_fall.jpg) no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*image credit to: http://www.imcreator.com/free/nature/winter-and-fall */
+}
+
+
+#thanks {
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	transform: translateY(50%);
+	-webkit-transform: translateY(50%);
+	-moz-transform: translateY(50%);
+	-o-transform: translateY(50%);
+	border: 1px solid black;
+	background-color: #F5F5DC;
+	border-radius: 5px;
+}
+
+#thanks p {
+	padding: 50px;
 	font-size: 24px;
 }
