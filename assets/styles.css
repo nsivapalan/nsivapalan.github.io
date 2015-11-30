@@ -1,12 +1,245 @@
-#test {
-	font-size: 28px;
+/*************
+ 	GENERAL
+ *************/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
 }
 
 a {
 	text-decoration: none;
-	color: #1E90FF;
+	color: #3b599b;
 }
 
-a:hover {
-	color: blue;
+h2:hover {
+	color: #3b599b;
+}
+
+#navbar {
+	font-weight: 300;
+	height: 39px;
+	list-style: none;
+	background-color: #3b599b;
+	margin: 0;
+}
+
+#navbar li {
+	color: white;
+	float: left;
+	margin-left: 25px;
+}
+
+.tab {
+	color: white;
+	padding: 10px;
+}
+
+li a {
+	color: white;
+}
+
+.tab:hover {
+	opacity: 0.75;
+}
+
+.name {
+	font-weight: bold;
+}
+
+#container {
+	width: 720px;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+/*.overlay {*/
+	/*position: absolute;*/
+	/*z-index: 10;*/
+	/*width: 100%;*/
+		/*height: calc(100% - 39px);*/
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+/*************
+ 	HOME PAGE
+ *************/
+
+#welcome {
+	background-image: url(./img/background.jpg);
+	height: 200px;
+}
+
+#dp {
+	float: right;
+	border-radius: 50%;
+	height: 150px;
+	margin-left: 25px;
+}
+
+.section {
+	border-radius: 5px;
+	width: 720px;
+	background-color: #F5F5DC;
+	padding: 20px;
+	margin: 25px auto;
+}
+
+/*************
+ EXPERIENCE PAGE
+ *************/
+/*#experienceBG {*/
+	/*background: url(../assets/img/endless_road.jpg) no-repeat center center fixed;'*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-size: cover;*/
+	/*min-width: 100%;*/
+	/*min-height: 100%;*/
+	/*z-index: 100;*/
+
+/*}*/
+
+#experience {
+	color: white;
+}
+
+#experienceBG {
+	background:
+			linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url(../assets/img/6H.jpg) no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*image credit to: http://www.imcreator.com/free/transportation/the-endless-road */
+}
+
+.verticalLine {
+	border-left: thick solid white;
+	height: 1400px;
+	position: absolute;
+	left: 50%;
+	top: 80px;
+	margin-bottom: 50px;
+}
+
+.boxLeft {
+	position: relative;
+	padding: 0px 10px 10px 10px;
+	right: 50px;
+	margin-top: 55px;
+	max-height: 300px;
+	max-width: 350px;
+	border: 3px solid white;
+}
+
+.boxRight {
+	position: relative;
+	padding: 0px 10px 10px 10px;
+	margin-top: 55px;
+	left: 400px;
+	max-height: 250px;
+	max-width: 350px;
+	border: 3px solid white;
+}
+
+
+/*************
+ CONTACT PAGE
+ *************/
+#contactBG {
+	background: url(../assets/img/sf_bridge.jpg) no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*image credit to: https://wallpaperscraft.com/image/san_francisco_fog_lights_bridge_58439_1600x900.jpg */
+}
+
+#social {
+	text-align: center;
+	padding: 20px;
+}
+
+.icon {
+	padding-right: 50px;
+}
+
+.icon:hover {
+	opacity: 0.7;
+}
+
+#mail {
+	color: #dc4e41;
+}
+
+#fb {
+	color: #3b599b;
+}
+
+#in {
+	color: #0077B5;
+}
+
+#git {
+	color: black;
+}
+
+#so {
+	color: #fe7a15;
+}
+
+#click {
+	background: transparent;
+	margin: 10px auto;
+	padding: 10px 20px;
+	border: solid 1px white;
+	font-size: 24px;
+	width: 115px;
+}
+
+#click:hover {
+	background: #3b599b;
+	transition: 0.4s;
+}
+
+#click a {
+	color: white;
+}
+
+.contactForm {
+	display: none;
+}
+
+#form {
+	border: 1px solid #efefef;
+	width: 280px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+input {
+	display: block;
+	width: 250px;
+	margin: 10px;
+	padding: 5px;
+}
+
+textarea {
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #E3E3E3;
+}
+
+#send {
+	margin: 0 auto;
+	width: 100px;
+	font-size: 24px;
 }
