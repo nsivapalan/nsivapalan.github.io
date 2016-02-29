@@ -279,14 +279,10 @@ li a {
 	color: white;
 }
 
-.contactForm {
-	display: none;
-}
-
 #form {
 	border: 1px solid #efefef;
 	width: 280px;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 10px;
 }
 
@@ -315,16 +311,7 @@ textarea {
  THANKS PAGE
  *************/
 #thanksBG {
-	background:
-			linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url(../assets/img/winter_fall.jpg) no-repeat center center fixed;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*image credit to: http://www.imcreator.com/free/nature/winter-and-fall */
+	background-color: #808080;
 }
 
 
