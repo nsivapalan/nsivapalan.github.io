@@ -1,74 +1,94 @@
 <!DOCTYPE html>
-<html id="homeBG">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<title>Home | Nimalen Sivapalan</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
 	<link rel="stylesheet" href="assets/font-awesome-4.4.0/css/font-awesome.css">
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="assets/script.js"></script>
+
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<!-- google analytics -->
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-74434557-1', 'auto');
-  ga('send', 'pageview');
+	  ga('create', 'UA-74434557-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 
-</script>
 </head>
-	<body>
+
+<body>
 	<!-- navbar -->
-	<div>
-		<ul id="navbar">
-			<li class="tab name"><a href="index.html">Nimalen Sivapalan</a></li>
-			<li class="tab"><a href="experience.html">Experience</a></li>
-			<li class="tab"><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>
-	<h1 align="center">Welcome to my website!</h1>
-	<div id="container">
-	<h2>A bit about me</h2>
-		<div class="section">
-			<img id="dp" src="assets/img/profilepic.jpg" alt="Nimalen">
-			<p>My name is Nimalen and I am currently a sophomore at UC Berkeley, pursuing a BA in Computer Science.
-				I was born and raised in Boston before moving to India, then Alabama, and now to the beautiful state of
-				California. My passion lies in integrating technology to better the world, which is what led me to join
-				the startup I work at, <a href="http://www.smileygo.org" target="_blank">SmileyGo</a>. I strive to better
-				and challenge myself everyday.
-			</p>
-		</div>
-	<!-- Hobbies -->
-	<h2>I enjoy...</h2>
-		<div class="section hobbies">
-			<p id="hobbiesIntro">Hover over each of my hobbies to learn more!</p>
-			<div class="description" id="readingDescription">
-				<h3>Reading</h3>
-				<p>I have a huge passion for reading. Biographies (<i>Steve Jobs</i>), self-help
-					(<i>How to Win Friends and Influence People</i>) and of course fiction (<i>The Catcher in the Rye</i>)
-					are some of my favorites genres.</p>
-			</div>
-			<div class="description" id="codingDescription">
-				<h3>Programming</h3>
-				<p>As an aspiring computer scientist, I am learning new things all the time, from programming languages and
-				frameworks to development processes.</p>
-			</div>
-			<div class="description" id="travelDescription">
-				<h3>Traveling</h3>
-				<p>Having traveled/moved to over 5 different countries so far, I love exploring different cultures and places
-					of the world.</p>
-			</div>
-			<p></p>
-			<div>
-				<i class="fa fa-book fa-5x icon reading"></i>
-				<i class="fa fa-code fa-5x icon coding"></i>
-				<i class="fa fa-suitcase fa-5x icon travel" style="padding-right: 0;"></i>
+	<nav class="navbar navbar-default" id="nav-bg">
+	  <div class="container-fluid">
+
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Nimalen's Portfolio</a>
+	    </div>
+	    
+	    <div class="collapse navbar-collapse" id="menu">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active link"><a href="./index.html">Home</a></li>
+	        <li class="link"><a href="#portfolio">Portfolio</a></li>
+	        <li class="link"><a href="./contact.html">Contact</a></li>
+	      </ul>
+	      
+	    </div> 
+	  </div>
+	</nav>
+	
+	<div class="container-fluid">
+	<!-- introduction -->
+		<div class="row">
+			<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+				<h1>Introduction</h1>
+
+				<div class="row">
+					<div class="col-md-9 col-sm-9">
+						<p>I’m a student at the University of California, Berkeley, pursuing a B.A. in Computer Science. Some things that I love are learning, reading, and coding. I learn through a variety of mediums including online MOOCs through Coursera (currently taking Introduction to Public Speaking). I am an avid reader and read everything from biographies and self-help to mystery and fantasy novels. I am learning to code through Free Code Camp so I can become a full-stack web developer and build high-impact projects.</p>
+					</div>
+
+					<div class="col-md-3 col-sm-3">
+						<img src="assets/img/profilepic.jpg" class="img-responsive" id="dp" alt="Nimalen Sivapalan">	
+					</div>
+				</div>
+
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+				<h1>Brief Overview</h1>
+				<p>You can find my resume <a target="_blank" href="https://www.dropbox.com/s/nabjx7znm2r3phc/Nimalen%20Sivapalan%20resume.pdf?dl=0">here</a>.</p>
+			</div>
+		</div>
+
+		<!-- interested partial -->
+
+		<!-- footer -->
+		
+
 	</div>
-	</body>
+	
+</body>
 </html>
