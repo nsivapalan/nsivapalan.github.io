@@ -1,231 +1,39 @@
-/*************
- 	GENERAL
- *************/
+* {
+	font-family: 'Lora', serif;
+}
 
-body {
-	font-family: 'Raleway', sans-serif;
-	margin: 0;
+#nav {
+	border: none;
+	background-color: #efefef;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+#nav a {
+	color: black;
+}
+
+a:hover {
+	background: lightblue;
+	text-decoration: none !important;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
 }
 
 a {
-	text-decoration: none;
-	color: #3b599b;
-}
-
-h2:hover {
-	color: #3b599b;
-}
-
-#navbar {
-	font-weight: 300;
-	height: 39px;
-	list-style: none;
-	background-color: #3b599b;
-	margin: 0;
-}
-
-#navbar li {
-	color: white;
-	float: left;
-	margin-left: 25px;
-}
-
-.tab {
-	color: white;
-	padding: 10px;
-}
-
-li a {
-	color: white;
-}
-
-.tab:hover {
-	opacity: 0.75;
-}
-
-.name {
-	font-weight: bold;
-}
-
-#container {
-	width: 720px;
-	margin: 0 auto;
-	z-index: 100;
-}
-
-.top {
-	position: relative;
-	top: 50px;
-	background: transparent;
-	margin: 0px auto;
-	padding: 10px 20px;
-	border: solid 1px white;
-	font-size: 18px;
-	width: 95px;
-}
-
-.top:hover {
-	background: #3b599b;
-	transition: 0.4s;
-}
-
-/*************
- 	HOME PAGE
- *************/
-#homeBG {
-	background: url(../assets/img/sunset.jpg) no-repeat center center fixed;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*image credit to: https://www.flickr.com/photos/57936333@N07/8285850247/sizes/h/ */
-}
-
-#homeBG h2 {
-	color: white;
+	font-size: 16px;
 }
 
 #dp {
-	float: right;
 	border-radius: 50%;
-	height: 150px;
-	margin-left: 25px;
+	height: 125px;
 }
 
-.section {
-	border-radius: 5px;
-	width: 720px;
-	background-color: #F5F5DC;
-	padding: 20px;
-	margin: 25px auto;
-}
-
-.section ul li a {
-	color: #3b599b;
-}
-
-.hobbies {
-	padding: 30px 20px;
-	text-align: center;
-}
-
-.showing {
-	color: #3b599b;
-}
-
-#readingDescription {
-	display: none;
-}
-
-#codingDescription {
-	display: none;
-}
-
-#travelDescription {
-	display: none;
-}
-
-/*************
- EXPERIENCE PAGE
- *************/
-#experience {
-	color: white;
-}
-
-#experienceBG {
-	background:
-			linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url(img/road.jpg) no-repeat center center fixed;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*image credit to: http://www.imcreator.com/free/transportation/the-endless-road */
-}
-
-.verticalLine {
-	border-left: thick solid white;
-	height: 1650px;
-	position: absolute;
-	left: 50%;
-	top: 80px;
-	margin-bottom: 100px;
-}
-
-.leftLine {
-	position: absolute;
-	right: -38px;
-	width: 35px;
-	top: 50%;
-	transform: translateY(-50%);
-	border: none;
-	background-color: white;
-	height: 3px;
-}
-
-.rightLine {
-	position: absolute;
-	left: -38px;
-	width: 35px;
-	top: 50%;
-	transform: translateY(-50%);
-	border: none;
-	background-color: white;
-	height: 3px;
-}
-
-.boxLeft {
-	position: relative;
-	padding: 0px 10px 10px 10px;
-	right: 50px;
-	margin-top: 55px;
-	max-height: 300px;
-	max-width: 350px;
-	border: 3px solid white;
-}
-
-.boxRight {
-	position: relative;
-	padding: 0px 10px 10px 10px;
-	margin-top: 55px;
-	left: 400px;
-	max-height: 300px;
-	max-width: 350px;
-	border: 3px solid white;
-}
-
-.top {
-	position: relative;
-	top: 50px;
-	background: transparent;
-	margin: 0px auto;
-	padding: 10px 20px;
-	border: solid 1px white;
-	font-size: 18px;
-	width: 95px;
-}
-
-.top:hover {
-	background: #3b599b;
-	transition: 0.4s;
-}
-
-/*************
- CONTACT PAGE
- *************/
-#contactBG {
-	background: url(../assets/img/sf_bridge.jpg) no-repeat center center fixed;
-	min-width: 100%;
-	min-height: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/*image credit to: https://wallpaperscraft.com/image/san_francisco_fog_lights_bridge_58439_1600x900.jpg */
+#footer {
+	margin-top: 25px;
 }
 
 #social {
@@ -304,31 +112,5 @@ textarea {
 #send {
 	margin: 0 auto;
 	width: 100px;
-	font-size: 24px;
-}
-
-/*************
- THANKS PAGE
- *************/
-#thanksBG {
-	background-color: #808080;
-}
-
-
-#thanks {
-	margin: 0 auto;
-	width: 500px;
-	height: 300px;
-	transform: translateY(50%);
-	-webkit-transform: translateY(50%);
-	-moz-transform: translateY(50%);
-	-o-transform: translateY(50%);
-	border: 1px solid black;
-	background-color: #F5F5DC;
-	border-radius: 5px;
-}
-
-#thanks p {
-	padding: 50px;
 	font-size: 24px;
 }
