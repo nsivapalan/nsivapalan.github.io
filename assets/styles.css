@@ -49,6 +49,7 @@ p {
 	border: 1px solid #45bd00;
 	background-color: white;
 	margin-top: 5px;
+	padding: 5px;
 }
 
 .simpleButton:hover {
