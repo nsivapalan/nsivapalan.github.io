@@ -8,8 +8,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="assets/script.js"></script>
 
-	<!-- fonts -->
+	<!-- fonts and fontawesome -->
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora" rel="stylesheet">
+	<script src="https://use.fontawesome.com/c4713b75d1.js"></script>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -46,52 +47,74 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Nimalen Sivapalan</a>
+	      <a class="navbar-brand" href="./index.html">Nimalen Sivapalan</a>
 	    </div>
 	    
 	    <div class="collapse navbar-collapse" id="menu">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li class="active link"><a href="./index.html">Home</a></li>
+	        <li class="link"><a href="./index.html">Home</a></li>
 	        <li class="link"><a href="#portfolio">Portfolio</a></li>
-	        <li class="link"><a href="./contact.html">Contact</a></li>
+	        <li class="active link"><a href="./contact.html">Contact</a></li>
 	      </ul>
 	      
 	    </div> 
 	  </div>
 	</nav>
 
-<div class="overlay"></div>
+	<div class="container-fluid">
+	
+		<div class="row">
+			<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+				<h1>Connect</h1>
+				<hr>
+				<p>I'm currently looking for freelance and internship opportunities. If you want to work together, have feedback, or just want to say hi, get in touch using one of the social networks below or send me a message through the form!</p>
+				<!-- social networks section -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<a class="icon" style="color: black" href="https://www.github.com/nsivapalan" target="_blank">
+							<i class="fa fa-github fa-5x"></i>
+						</a>
+						<a class="icon" style="color: #3b599b" href="https://www.facebook.com/ImNimalen" target="_blank">
+							<i class="fa fa-facebook-official fa-5x"></i>
+						</a>
+						<a class="icon" style="color: #0077B5" href="https://www.linkedin.com/in/nimalen" target="_blank">
+							<i class="fa fa-linkedin fa-5x"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<div id="container">
-<h2 align="center">Connect with me</h2>
-<!-- social networks section -->
-<div id="social">
-	<a class="icon" id="git" href="https://www.github.com/nsivapalan" target="_blank">
-		<i class="fa fa-github fa-5x"></i>
-	</a>
-	<!--<a class="icon" id="so" href="http://stackoverflow.com/users/4455327/nimalen" target="_blank">-->
-		<!--<i class="fa fa-stack-overflow fa-5x"></i>-->
-	<!--</a>-->
-	<a class="icon" id ="fb" href="https://www.facebook.com/ImNimalen" target="_blank">
-		<i class="fa fa-facebook-official fa-5x"></i>
-	</a>
-	<a class="icon" id="in" href="https://www.linkedin.com/in/nimalen" target="_blank">
-		<i class="fa fa-linkedin fa-5x"></i>
-	</a>
-</div>
-<h2 align="center">Send me a message</h2>
-<p align="center">Get in touch and I'll try to get back to you ASAP!</p>
-<!--send a message form-->
-<div class="contactForm">
-	<form id = "form" 	action="https://formspree.io/nimalen786@gmail.com" method="post">
-		<input type="text" name="name" placeholder="your name" required>
-		<input type="email" name="_replyto" placeholder="your email" required>
-		<textarea name="message" placeholder="your message" cols="30" rows="10" required></textarea>
-		<input type="hidden" name="_next" value="//nsivapalan.github.io/">
-		<input type="hidden" name="_subject" value="New submission!" />
-		<input type="submit" name="send" id="send" value="Send">
-	</form>
-</div>
-</div>
+		<!-- form -->
+		<div class="row">
+			<div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+				<h1>Send me a message</h1>
+				<hr>
+				<p>Get in touch and I'll try to get back to you ASAP! After you click Send, you will be redirected to the Home page.</p>
+
+				<div class="messageForm" align="center">
+					<form action="https://formspree.io/nimalen786@gmail.com" method="post">
+						<input class="col-md-12 col-sm-12 col-xs-12" type="text" name="name" placeholder="your name" required>
+						<input class="col-md-12 col-sm-12 col-xs-12" type="email" name="_replyto" placeholder="your email" required>
+						<textarea class="col-md-12 col-sm-12 col-xs-12" name="message" placeholder="your message" rows="10" required></textarea>
+						<input type="hidden" name="_next" value="//https://nsivapalan.github.io/">
+						<input type="hidden" name="_subject" value="New submission!" />
+						<input type="submit" name="send" class="simpleButton" value="Send">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col-md-12">
+				<footer id="footer">
+					<p class="text-center">© 2017 Nimalen Sivapalan. Back to <a href="#">top</a>.</p>
+				</footer>
+			</div>
+		</div>
+
+	</div>
+
 </body>
 </html>
