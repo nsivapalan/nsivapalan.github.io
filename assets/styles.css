@@ -1,31 +1,84 @@
+/*
+color scheme:
+#8eb9ff - blue
+#8fff89 - green
+*/
+
 * {
 	font-family: 'Lora', serif;
-}
-
-#nav {
-	border: none;
-	background-color: #efefef;
-	box-shadow: none;
-	border-radius: 0;
-}
-
-#nav a {
-	color: black;
-}
-
-a:hover {
-	background: lightblue;
-	text-decoration: none !important;
 }
 
 a {
 	font-size: 16px;
 }
 
+	a:hover {
+		background-color: #8fff89;
+		transition: background-color 2s;
+		-webkit-transition: background-color 2s;
+		text-decoration: none !important;
+	}
+
 p {
 	font-family: 'Crimson Text', serif;
 	font-size: 18px;
 }
+
+input, textarea {
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #efefef;
+}
+
+#nav {
+	border: none;
+	background: white;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.icon {
+	padding: 15px;
+}
+
+	.icon:hover, .screenshot:hover {
+		background: none;
+		opacity: 0.7;
+	}
+
+.simpleButton {
+	border: 1px solid #45bd00;
+	background-color: white;
+	transition: background-color 2s;
+	-webkit-transition: background-color 2s;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+	.simpleButton:hover {
+		background-color: lightgreen;
+		transition: background-color 2s;
+		-webkit-transition: background-color 2s;
+	}
+
+#nav a {
+		color: black;
+		transition: color 1s;
+		-webkit-transition: color 1s;
+}
+
+	#nav a:hover {
+		color: #8eb9ff !important;
+		transition: color 1s;
+		-webkit-transition: color 1s;
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+		border-top: 3px solid #8eb9ff;
+		line-height: 14px;
+		background: none !important;
+		box-shadow: none !important;
+	}
 
 #dp {
 	border-radius: 50%;
@@ -34,30 +87,4 @@ p {
 
 #footer {
 	margin-top: 25px;
-}
-
-.icon {
-	padding: 15px;
-}
-
-.icon:hover, .screenshot:hover {
-	background: none;
-	opacity: 0.7;
-}
-
-.simpleButton {
-	border: 1px solid #45bd00;
-	background-color: white;
-	margin-top: 5px;
-	padding: 5px;
-}
-
-.simpleButton:hover {
-	background-color: lightgreen;
-}
-
-input, textarea {
-	padding: 10px;
-	border: none;
-	border-bottom: 1px solid #efefef;
 }
