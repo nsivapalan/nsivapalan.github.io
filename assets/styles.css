@@ -8,16 +8,16 @@ color scheme:
 	font-family: 'Lora', serif;
 }
 
-a {
-	font-size: 16px;
+a:hover {
+		background-color: #8fff89;
+		transition: background-color 0.5s;
+		-webkit-transition: background-color 0.5s;
+		text-decoration: none !important;
 }
 
-	a:hover {
-		background-color: #8fff89;
-		transition: background-color 2s;
-		-webkit-transition: background-color 2s;
-		text-decoration: none !important;
-	}
+li {
+	font-size: 16px
+}
 
 p {
 	font-family: 'Crimson Text', serif;
@@ -69,8 +69,8 @@ input, textarea {
 
 	#nav a:hover {
 		color: #8eb9ff !important;
-		transition: color 1s;
-		-webkit-transition: color 1s;
+		transition: color 0.25s;
+		-webkit-transition: color 0.25s;
 	}
 
 	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
@@ -89,14 +89,10 @@ input, textarea {
 	margin-top: 25px;
 }
 
-#git {
-	color: black;
+#fb {
+	color: #0078FF;
 }
 
-#fb {
-	color: #3b599b;
-} 
-
-#in {
-	color: #0077B5;
+#ig {
+	color: #E1306C;
 }
