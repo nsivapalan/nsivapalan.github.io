@@ -24,12 +24,6 @@ p {
 	font-size: 18px;
 }
 
-input, textarea {
-	padding: 10px;
-	border: none;
-	border-bottom: 1px solid #efefef;
-}
-
 #nav {
 	border: none;
 	background: white;
@@ -82,7 +76,7 @@ input, textarea {
 
 #dp {
 	border-radius: 50%;
-	height: 150px;
+	height: 200px;
 }
 
 #footer {
@@ -95,4 +89,8 @@ input, textarea {
 
 #ig {
 	color: #E1306C;
+}
+
+#email {
+	color: #D44638;
 }
