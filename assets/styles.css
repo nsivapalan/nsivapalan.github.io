@@ -76,15 +76,24 @@ p {
 
 #dp {
 	border-radius: 50%;
-	height: 200px;
+	height: 100px;
 }
 
-#footer {
-	margin-top: 25px;
+#intro {
+	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
-#fb {
-	color: #0078FF;
+#li {
+	color: #006192;
+}
+
+#twitter {
+	color: #1DA1F2;
+}
+
+#medium {
+	color: black;
 }
 
 #ig {
