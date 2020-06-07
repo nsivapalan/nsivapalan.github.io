@@ -47,18 +47,6 @@ a:hover {
 		-webkit-transition: background-color 2s;
 	}
 
-#bg {
-	background-color: #fafafa;
-}
-
-.box {
-	background-color: white;
-}
-
-#updated {
-	color: gray;
-}
-
 #nav a {
 		color: black;
 		transition: color 1s;
@@ -107,4 +95,16 @@ a:hover {
 	margin-top: 40px;
 	padding-top: 20px;
 	background-color: white;
+}
+
+#bg {
+	background-color: #fafafa;
+}
+
+.box {
+	background-color: white;
+}
+
+#updated {
+	color: gray;
 }
